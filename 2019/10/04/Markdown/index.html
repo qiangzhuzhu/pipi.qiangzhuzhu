@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="Markdown的基本语法（1）标题 ：1234567891011# 一级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题   “#”标注标题的时候要和标题之间空一格 （2）粗体，斜体，删除线和下划线：1234567*斜体***粗体*****加粗斜体***~~删除线~~   这些符号与内容之间不能有空格 （3）引用块：1&amp;gt; 文字引用  （4）代码">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-10-07T15:02:58.843Z">
+<meta property="og:updated_time" content="2019-10-07T15:08:51.249Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Markdown">
 <meta name="twitter:description" content="Markdown的基本语法（1）标题 ：1234567891011# 一级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题   “#”标注标题的时候要和标题之间空一格 （2）粗体，斜体，删除线和下划线：1234567*斜体***粗体*****加粗斜体***~~删除线~~   这些符号与内容之间不能有空格 （3）引用块：1&amp;gt; 文字引用  （4）代码">
@@ -212,9 +212,33 @@
 
 <h2 id="5-表格："><a href="#5-表格：" class="headerlink" title="(5) 表格："></a>(5) 表格：</h2><h3 id="语法："><a href="#语法：" class="headerlink" title="语法："></a>语法：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"> 姓名|性别|爱好</span><br><span class="line">-|:-:|-</span><br><span class="line">内容|内容|内容</span><br><span class="line">内容|内容|内容</span><br><span class="line"></span><br><span class="line">注意：</span><br><span class="line">1.“-”一个和多个效果都一样。</span><br><span class="line">2.文字默认居左，“-”两边加“：”表示文字居左；“-”右边加“：”默认居右</span><br></pre></td></tr></table></figure>
 
-<h3 id="示例："><a href="#示例：" class="headerlink" title="示例："></a>示例：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">姓名|性别|爱好</span><br><span class="line">-|:--:|-:</span><br><span class="line">张三|男|吃</span><br><span class="line">李四|男|喝</span><br><span class="line">王五|男|玩</span><br></pre></td></tr></table></figure>
+<h3 id="示例："><a href="#示例：" class="headerlink" title="示例："></a>示例：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">姓名|性别|爱好</span><br><span class="line">:-|:--:|-:</span><br><span class="line">张三|男|吃</span><br><span class="line">李四|男|喝</span><br><span class="line">王五|男|玩</span><br></pre></td></tr></table></figure>
 
-<p>###效果如下<br>姓名|性别|爱好<br>-|:–:|-:<br>张三|男|吃<br>李四|男|喝<br>王五|男|玩</p>
+<p>###效果如下：</p>
+<table>
+<thead>
+<tr>
+<th>姓名</th>
+<th align="center">性别</th>
+<th align="right">爱好</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>张三</td>
+<td align="center">男</td>
+<td align="right">吃</td>
+</tr>
+<tr>
+<td>李四</td>
+<td align="center">男</td>
+<td align="right">喝</td>
+</tr>
+<tr>
+<td>王五</td>
+<td align="center">男</td>
+<td align="right">玩</td>
+</tr>
+</tbody></table>
 
       
     </div>
