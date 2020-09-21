@@ -14,9 +14,7 @@ Tip:
 
 ## Maven下载
 
-官网下载地址 [百度](https://www.baidu.com/)
-
-<br>
+官网下载地址[百度](https://www.baidu.com/)
 
 ## 配置
 ---
@@ -42,7 +40,7 @@ Tip:
 2.localRepository标签中添加代码:    <localRepository>D:\maven\apache-maven-3.6.3\maven-repo</localRepository>
 ```
 ### 3.配置中央仓库镜像源
-打开`D:\maven\apache-maven-3.5.4\conf\settings.xml`，找到`mirrors`标签，在标签内添加如下代码
+打开`D:\maven\apache-maven-3.6.3\conf\settings.xml`，找到`mirrors`标签，在标签内添加如下代码
 ```
 <mirror>
           <id>nexus-aliyun</id>
