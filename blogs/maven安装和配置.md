@@ -1,6 +1,6 @@
 ---
 title: maven安装和配置
-date: 2020-9-21
+date: 2020-09-22
 tags:
  - tag3
 categories: 
@@ -14,7 +14,8 @@ Tip:
 
 ## Maven下载
 ---
-[官网下载地址](http://maven.apache.org/download.cgi)
+
+官网下载地址[点我](https://maven.apache.org/)
 
 ## 配置
 ---
