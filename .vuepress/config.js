@@ -64,14 +64,12 @@ module.exports = {
     },
     "friendLink": [
       {
-        "title": "午后南杂",
+        "title": "香香",
         "desc": "Enjoy when you can, and endure when you must.",
-        "email": "1156743527@qq.com",
-        "link": "https://www.recoluan.com"
+        "link": "https://srcrs.top/"
       },
       {
-        "title": "vuepress-theme-reco",
-        "desc": "A simple and beautiful vuepress Blog & Doc theme.",
+        "title": "小猪",
         "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
         "link": "https://vuepress-theme-reco.recoluan.com"
       }
@@ -83,7 +81,7 @@ module.exports = {
     "author": "",
     "authorAvatar": "/avatar.png",
     "record": "xxxx",
-    "startYear": "2017"
+    "startYear": "2020"
   },
   "markdown": {
     "lineNumbers": true
