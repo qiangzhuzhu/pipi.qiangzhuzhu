@@ -69,7 +69,7 @@ module.exports = {
         "link": "https://srcrs.top/"
       },
       {
-        "title": "小猪",
+        "title": "vuepress-theme-reco",
         "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
         "link": "https://vuepress-theme-reco.recoluan.com"
       }
@@ -80,7 +80,7 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "",
     "authorAvatar": "/avatar.png",
-    "record": "xxxx",
+    "record": "王",
     "startYear": "2020"
   },
   "markdown": {
